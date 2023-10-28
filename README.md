@@ -4,6 +4,8 @@
 
 #### 섹션 3. 스프링 핵심 원리 이해 3 - 객체 지향 원리 적용
 - <a href="https://velog.io/@hyokyung918/Spring-1">의존관계 주입과 컨테이너</a>
+
+#### 섹션 4. 스프링 컨테이너와 스프링 빈
 - <a href="https://velog.io/@hyokyung918/Spring-2">스프링 컨테이너와 빈</a>
 - <a href="https://velog.io/@hyokyung918/Spring-3">스프링 컨테이너 계층</a>
 - <a href="https://velog.io/@hyokyung918/Spring-4">XML</a>
