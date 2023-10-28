@@ -9,3 +9,6 @@
 - <a href="https://velog.io/@hyokyung918/Spring-2">스프링 컨테이너와 빈</a>
 - <a href="https://velog.io/@hyokyung918/Spring-3">스프링 컨테이너 계층</a>
 - <a href="https://velog.io/@hyokyung918/Spring-4">XML</a>
+
+#### 섹션 5. 싱글톤 컨테이너
+- <a href="https://velog.io/@hyokyung918/Spring-5">싱글톤 컨테이너</a>
