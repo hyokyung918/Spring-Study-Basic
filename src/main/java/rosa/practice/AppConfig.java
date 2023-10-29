@@ -17,16 +17,16 @@ import rosa.practice.order.OrderServiceImpl;
 @Configuration
 public class AppConfig {
 
-    @Autowired MemberRepository memberRepository;
+//    @Autowired MemberRepository memberRepository;
 
     @Bean
     public MemberService memberService () {
         System.out.println("call AppConfig.memberService");
-        return new MemberServiceImpl(memberRepository);
+        return new MemberServiceImpl(memberRepository());
     }
 
     @Bean
-    public static MemberRepository memberRepository() {
+    public MemberRepository memberRepository() {
         System.out.println("call AppConfig.memberRepository");
         return new MemoryMemberRepository();
     }
@@ -34,11 +34,11 @@ public class AppConfig {
     @Bean
     public OrderService orderService() {
         System.out.println("call AppConfig.orderService");
-        return new OrderServiceImpl(memberRepository, discountPolicy());
+        return new OrderServiceImpl(memberRepository(), discountPolicy());
     }
 
     @Bean
-    public static DiscountPolicy discountPolicy() {
+    public DiscountPolicy discountPolicy() {
         return new RateDiscountPolicy();
     }
 
