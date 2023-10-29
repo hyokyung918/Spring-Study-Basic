@@ -1,8 +1,10 @@
 package rosa.practice.discount;
 
+import org.springframework.stereotype.Component;
 import rosa.practice.member.Grade;
 import rosa.practice.member.Member;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
     private int discountPercent = 10;

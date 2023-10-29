@@ -14,8 +14,6 @@ public class ConfigurationSingletonTest {
     @Test
     void configurationTest() {
 
-        // 나는 왜 그냥 하면 다르지... 우선 Autowired 로 의존관계 주입해 싱글톤 맞춤
-
         ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 
         MemberServiceImpl memberService = ac.getBean("memberService", MemberServiceImpl.class);
