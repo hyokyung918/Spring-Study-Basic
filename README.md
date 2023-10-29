@@ -12,3 +12,8 @@
 
 #### 섹션 5. 싱글톤 컨테이너
 - <a href="https://velog.io/@hyokyung918/Spring-5">싱글톤 컨테이너</a>
+- <a href="https://velog.io/@hyokyung918/Spring-6">@Configuration 과 싱글톤</a>
+
+#### 섹션 6. 컴포넌트 스캔
+- <a href="https://velog.io/@hyokyung918/Spring-7">컴포넌트 스캔</a>
+
